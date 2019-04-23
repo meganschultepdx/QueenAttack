@@ -11,10 +11,10 @@ namespace QueenAttack
       {
         return true;
       }
-      // else if ()
-      // {
-      //   return true;
-      // }
+      else if (Math.Abs(queenX - opponentX) == Math.Abs(queenY - opponentY))
+      {
+        return true;
+      }
       else
       {
         return false;
