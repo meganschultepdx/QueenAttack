@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName;
+using QueenAttack;
 
-namespace ProjectName.Tests
+namespace QueenAttack.Tests
 {
   [TestClass]
-  public class LeapYearTest
+  public class QueenAttackTest
   {
     // Test methods go here
   }
