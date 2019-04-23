@@ -12,5 +12,12 @@ namespace QueenAttack.Tests
       QueenAttack testQueenAttack = new QueenAttack();
       Assert.AreEqual(true, testQueenAttack.QueenAttackAnalyzer(1, 2, 1, 4));
     }
+
+    [TestMethod]
+    public void QueenAttackAnalyzer_YAxisComparison_True()
+    {
+      QueenAttack testQueenAttack = new QueenAttack();
+      Assert.AreEqual(true, testQueenAttack.QueenAttackAnalyzer(1, 2, 3, 2));
+    }
   }
 }

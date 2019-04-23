@@ -7,10 +7,14 @@ namespace QueenAttack
   {
     public bool QueenAttackAnalyzer(int queenX, int queenY, int opponentX, int opponentY)
     {
-      if (queenX == opponentX)
+      if (queenX == opponentX || queenY == opponentY)
       {
         return true;
       }
+      // else if ()
+      // {
+      //   return true;
+      // }
       else
       {
         return false;
